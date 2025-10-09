@@ -1,0 +1,46 @@
+body {
+  min-height: 100px;
+  min-width: 100px;
+  background-color: #77afee;
+  
+}
+h1 {
+   color: rgba(1, 6, 2, 0.905); 
+   background-color: aqua;
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    font-style: oblique;
+}
+
+p {
+text-align:center;
+ font-size: 30px;
+    font-weight: bold;
+    background-color: aqua;
+}
+
+.actions{
+    display: flex;
+    justify-content: center;
+}
+.actions button {
+ background-color: aqua;
+font-size: 40px;
+font-weight: bold;
+border-radius: 10px;
+
+}
+
+.grid-container {
+  display: grid;
+  justify-content: center;
+  grid-gap: 50px;
+  grid-template-columns: repeat(5, 150px);
+  grid-template-rows: repeat(5, 100px)
+  
+}
+
+
+
+

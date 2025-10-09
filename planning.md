@@ -1,5 +1,4 @@
-# Pseudocode
-## Memory Game Planning
+# Memory Game Planning
 
 ## Goal
 Create a simple memory card game using **HTML, CSS, and JavaScript**.  
@@ -28,5 +27,6 @@ The game will have a grid of cards that players flip to find matching pairs.
        - If match → keep them visible.
        - If not → flip them back after short delay.
    - Track matched pairs.
+   - The more matched pairs, 'Score' should be higher.
+   - When press 'Restar' button, shuffle them all and start from begging. 
    - End game when all pairs are found.
-
