@@ -92,9 +92,9 @@ h1 {
 
 .score-container {
   display: flex;
-  flex-direction: column; /* vertikalno */
-  align-items: center;    /* centrirano horizontalno */
-  gap: 10px;              /* prostor između score i dugmeta */
+  flex-direction: column; 
+  align-items: center;    
+  gap: 10px;              
   margin-top: 20px;
 }
 
@@ -107,5 +107,5 @@ h1 {
   border-radius: 6px;
   border: 2px dashed #012;
   text-align: center;
-  width: fit-content; /* da se prilagodi sadržaju */
+  width: fit-content; 
 }
