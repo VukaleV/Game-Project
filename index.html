@@ -1,24 +1,32 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Memory Card Game</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="app.js"></script>
   </head>
   <body>
-    <h1>Memory Cards</h1>
-    <div class="grid-container"></div>
-    
-    <p>Score: <span id="score">0</span></p>
 
-    <div class="actions">
-     <button id="resetbtn">Restart</button>
-
+    <!-- Start screen -->
+    <div id="start-screen">
+      <h1>Welcome to Memory Cards!</h1>
+      <p>Instructions:</p>
+      <ul>
+        <li>Click on a card to flip it.</li>
+        <li>Find matching pairs of cards.</li>
+        <li>Try to match all pairs with the fewest moves!</li>
+      </ul>
+      <button id="start-button">Start Game</button>
     </div>
-  
-      <script type="module" src="app.js"></script>
-     
 
-  </body>
-</html>
+    <!-- Original game screen -->
+    <div id="game-screen" style="display: none;">
+      <h1>Memory Cards</h1>
+      <div class="grid-container"></div>
+      <div class="score-container"></div>
+      <div id="score">Score: 0</div>
+      <div class="actions">
+        <button id="resetbtn">Restart</button>
+        <div class="flipCard"></div>
+      </div>
