@@ -11,26 +11,26 @@ const resetBtn = document.getElementById('resetbtn');
 let score = 0;
 let boardCards = [];
 
-// Start screen logic
+
 startButton.addEventListener('click', () => {
   startScreen.style.display = 'none';
   gameScreen.style.display = 'block';
   initBoard();
 });
 
-// Funkcija za update score-a
+
 function updateScore(points) {
   score += points;
   scoreEl.textContent = `Score: ${score}`;
 }
 
-// Funkcija za reset score-a
+
 function resetScore() {
   score = 0;
   scoreEl.textContent = `Score: ${score}`;
 }
 
-// Original game logic
+
 function initBoard() {
   gridContainer.innerHTML = '';
 
@@ -100,13 +100,12 @@ function initBoard() {
   });
 }
 
-// Reset button
+
 resetBtn.addEventListener('click', () => {
-  resetScore(); // postavlja "Score: 0"
+  resetScore(); 
   initBoard();
 });
 
-// Initialize board on page load (if needed)
+
 document.addEventListener('DOMContentLoaded', () => {
-  // board will initialize only after start screen
 });
