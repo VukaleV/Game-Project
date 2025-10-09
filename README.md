@@ -15,6 +15,9 @@ Check out the deployed game here: [Memory Game Live](https://github.com/VukaleV/
 3. Each correct pair adds 10 points to your score.
 4. Press **Reset** to restart the game at any time.
 
+## Attributions / Acknowledgements
+- Project development inspired by online learning resources.
+
 ## Technologies Used
 - HTML
 - CSS
